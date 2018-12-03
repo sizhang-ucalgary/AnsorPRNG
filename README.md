@@ -1,5 +1,5 @@
 # AnsorPRNG
-=========
+
 Introduction
 ------------
 This sample uses the [Android Studio CMake plugin](http://tools.android.com/tech-docs/external-c-builds) with external library support. It demos how to:
