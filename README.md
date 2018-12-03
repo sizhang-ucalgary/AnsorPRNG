@@ -20,20 +20,8 @@ When importing libraries into your app, include the following in your app's `CMa
 *    configure each library binary location(using `set_target_properties`)
 *    configure each library headers location (using `target_include_directories`)
 
-For shared libraries, notify gradle to pack them into APK. One simple way is to include the shared lib directory into application's jniLibs directory:
-*    jniLibs.srcDirs = ['../distribution/gperf/lib']
+For shared libraries, notify gradle to pack them into APK.
 
 Pre-requisites
 --------------
 - Android Studio 3.0.0 with [NDK](https://developer.android.com/ndk/) bundle.
-
-Getting Started
----------------
-1. [Download Android Studio](http://developer.android.com/sdk/index.html)
-1. Launch Android Studio.
-1. Open the sample directory.
-1. Open *File/Project Structure...*
-  - Click *Download* or *Select NDK location*.
-1. Click *Tools/Android/Sync Project with Gradle Files*.
-1. Click *Run/Run 'app'*.
-
