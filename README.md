@@ -8,13 +8,16 @@ This sample uses the [Android Studio CMake plugin](http://tools.android.com/tech
 
 Description
 -----------
-The main goal of the sample is to demo how to use 3rd party libs, it is not to demonstrate lib package generation. Toward that goal, the pre-built libs are included in the `distribution` folder.
+The main goal of the sample is to demo how to use 3rd party libs, it is not to demonstrate lib package generation. Toward that goal, the pre-built libs are included in the `distribution` folder. `cryptopp-android` folder contains mk files for porting Crypto++.
+
 The sample includes 2 modules:
 *    app -- imports a shared library (libc++_shared.so) and a shared library (libcryptopp_shared.so) from the `distribution` folder
-*    gen-libs -- contains the source code and CMake build script for the gmath and gperf example libraries. The resulting binaries are copied into the `distribution` folder. By default, gen-libs module is disabled in setting.gradle and app/build.gradle, so it won't show up in Android Studio IDE. If re-generating lib is desirable, follow comments inside settings.gradle and app/build.gradle to enable this module, generate libs, then disable it again to avoid unnecessary confusion.
-For shared libraries, notify gradle to pack them into APK.
+*    gen-libs -- contains the source code and CMake build script for the cryptopp library. 
 
-`cryptopp-android' folder contains mk files for porting Crypto++.
+The resulting binaries are copied into the `distribution` folder. We pack shared libraries into APK.
+
+`app/src/main/cpp/hello-libs.cpp` contains the C++ code for jni.
+`app/src/main/java/com/example/hellolibs/CryptoRandom.java` contains the Java code for jni
 
 Pre-requisites
 --------------
