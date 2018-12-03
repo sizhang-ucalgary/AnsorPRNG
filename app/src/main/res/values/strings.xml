@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">hello-libs</string>
+    <string name="set_seed">Set Seed</string>
+    <string name="prng">PRNG</string>
+    <string name="sensora">SensorA</string>
+    <string name="textview">TextView</string>
+    <string name="sensorb">SensorB</string>
+    <string name="sensorc">SensorC</string>
+    <string name="accelerometer">Accelerometer</string>
+    <string name="gyroscope">Gyroscope</string>
+    <string name="magnetometer">Magnetometer</string>
+</resources>

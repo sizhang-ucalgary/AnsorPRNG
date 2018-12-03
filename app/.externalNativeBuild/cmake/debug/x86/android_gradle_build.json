@@ -1,0 +1,46 @@
+
+{
+	"buildFiles" : [ "/home/tom/Android/hello-libs/app/src/main/cpp/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/home/tom/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/tom/Android/hello-libs/app/.externalNativeBuild/cmake/debug/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"hello-libs-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "hello-libs",
+			"buildCommand" : "/home/tom/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/tom/Android/hello-libs/app/.externalNativeBuild/cmake/debug/x86 --target hello-libs",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android24 --gcc-toolchain=/home/tom/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/tom/Android/Sdk/ndk-bundle/sysroot  -Dhello_libs_EXPORTS -I/home/tom/Android/hello-libs/app/src/main/cpp/../../../../distribution/cryptopp/include -isystem /home/tom/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/tom/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/tom/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/tom/Android/hello-libs/app/src/main/cpp/hello-libs.cpp",
+					"workingDirectory" : "/home/tom/Android/hello-libs/app/.externalNativeBuild/cmake/debug/x86"
+				}
+			],
+			"output" : "/home/tom/Android/hello-libs/app/build/intermediates/cmake/debug/obj/x86/libhello-libs.so",
+			"toolchain" : "16358546108308966010"
+		},
+		"lib_cryptopp-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "lib_cryptopp",
+			"buildType" : "debug",
+			"output" : "/home/tom/Android/hello-libs/app/src/main/cpp/../../../../distribution/cryptopp/lib/x86/libcryptopp_shared.so",
+			"toolchain" : "16358546108308966010"
+		}
+	},
+	"toolchains" : 
+	{
+		"16358546108308966010" : 
+		{
+			"cCompilerExecutable" : "/home/tom/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/tom/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

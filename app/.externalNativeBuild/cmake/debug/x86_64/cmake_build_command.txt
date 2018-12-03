@@ -1,0 +1,15 @@
+Executable : /home/tom/Android/Sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/home/tom/Android/hello-libs/app/src/main/cpp
+-B/home/tom/Android/hello-libs/app/.externalNativeBuild/cmake/debug/x86_64
+-DANDROID_ABI=x86_64
+-DANDROID_PLATFORM=android-16
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/tom/Android/hello-libs/app/build/intermediates/cmake/debug/obj/x86_64
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/home/tom/Android/Sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/home/tom/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/home/tom/Android/Sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+-DANDROID_STL=c++_static
+jvmArgs : 
+

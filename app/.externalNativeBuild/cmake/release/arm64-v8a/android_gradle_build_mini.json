@@ -1,0 +1,26 @@
+{
+  "buildFiles": [
+    "/home/tom/Android/hello-libs/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/tom/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/tom/Android/hello-libs/app/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "hello-libs-Release-arm64-v8a": {
+      "artifactName": "hello-libs",
+      "buildCommand": "/home/tom/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/tom/Android/hello-libs/app/.externalNativeBuild/cmake/release/arm64-v8a --target hello-libs",
+      "abi": "arm64-v8a",
+      "output": "/home/tom/Android/hello-libs/app/build/intermediates/cmake/release/obj/arm64-v8a/libhello-libs.so"
+    },
+    "lib_cryptopp-Release-arm64-v8a": {
+      "artifactName": "lib_cryptopp",
+      "abi": "arm64-v8a",
+      "output": "/home/tom/Android/hello-libs/app/src/main/cpp/../../../../distribution/cryptopp/lib/x86/libcryptopp.a"
+    },
+    "lib_gmath-Release-arm64-v8a": {
+      "artifactName": "lib_gmath",
+      "abi": "arm64-v8a",
+      "output": "/home/tom/Android/hello-libs/app/src/main/cpp/../../../../distribution/gmath/lib/x86/libgmath.a"
+    }
+  }
+}
