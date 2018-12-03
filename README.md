@@ -1,13 +1,10 @@
-hello-libs
+# AnsorPRNG
 =========
-hello-libs is a sample that shows you how to manage 3rd party C/C++ libraries with Android Studio.
-
 Introduction
 ------------
 This sample uses the [Android Studio CMake plugin](http://tools.android.com/tech-docs/external-c-builds) with external library support. It demos how to:
 
 * include a pre-built shared library (Crypto++ 7.0) in your app
-
 
 Description
 -----------
@@ -44,4 +41,3 @@ Support
 -------
 If you've found an error in these samples, please [file an issue](https://github.com/googlesamples/android-ndk/issues/new).
 
-# AnsorPRNG
